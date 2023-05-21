@@ -13,7 +13,7 @@ To teste the programs, install Python in your PC or if your have a unix or linux
 sudo apt install python3 -y
 ~~~
 
-then 
+then to teste run the follow command.
 
 ~~~
 python <name>.py
