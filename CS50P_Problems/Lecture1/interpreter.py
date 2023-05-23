@@ -1,4 +1,5 @@
 def mathInterpreter(input) -> str:
+    # unpack teh list
     x, operator, y = input.split(" ")
     n1 = int(x)
     n2 = int(y)
