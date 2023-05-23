@@ -1,0 +1,6 @@
+name = input("What's you name? ")
+#print("Hello, ", name, "!")
+#print("Hello, ", end = "")
+#print(name)
+name = name.title()
+print(f"hello, {name}")
