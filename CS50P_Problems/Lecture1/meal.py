@@ -1,10 +1,15 @@
-
 '''
- If up for a challenge, optionally add support for 12-hour times, allowing the user to input times in these formats too:
+In meal.py, implement a program that prompts the user for a time and outputs whether it's breakfast time, lunch time, or dinner time. If it's not time for a
+meal, don't output anything at all. 
+
+If up for a challenge, optionally add support for 12-hour times, allowing the user to input times in these formats too:
 
     #:## a.m. and ##:## a.m.
     #:## p.m. and ##:## p.m.   
 '''
+
+# convert - convert a string in an single float number
+
 def convert(time):
     # split - split the str passed as input in two variables of type int
     # map - map the elements of the list returned by the split method to type int
