@@ -12,3 +12,5 @@ This course have 9 classes:
 8. Lecture 7 - Regular Expressions
 9. Lecture 8 - Object-Oriented Programming
 10. Lecture 9 - Et Cetera
+
+[Link to CS50P page](https://cs50.harvard.edu/python/2022/)
