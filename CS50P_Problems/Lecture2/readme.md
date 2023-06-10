@@ -18,3 +18,5 @@ then to teste run the follow command.
 ~~~
 python <name>.py
 ~~~
+
+For for information about the problems' instructions see [here](https://cs50.harvard.edu/python/2022/psets/2)
