@@ -22,13 +22,13 @@ def convert(time):
 def main():
     time = input("What time is it? (e. 2:00)")
     convertedTime = convert(time)
-    if 7 <= convertedTime < 8:
-        print("Breakfast Time")
-    elif 12 <= convertedTime < 13:
-        print("Launch Time")
-    elif 18 <= convertedTime < 19:
-        print("Dinner Time")
-    else: 
+    if 7 <= convertedTime <= 8:
+        print("breakfast time", end="")
+    elif 12 <= convertedTime <= 13:
+        print("lunch time", end="")
+    elif 18 <= convertedTime <= 19:
+        print("dinner time", end="")
+    else:
         print("")
 
 
