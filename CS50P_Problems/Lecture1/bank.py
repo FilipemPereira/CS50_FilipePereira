@@ -5,7 +5,7 @@ In a file called bank.py, implement a program that prompts the user for a greeti
 
 def greeting(salutation):
     salutation = salutation.lower()
-    if salutation.startswith("hello"):
+    if salutation.startswith("hello") or salutation.startswith(" "):
         salutation = "$0"
     elif salutation[0] == 'h' and salutation != "hello":
         salutation = "$20"
