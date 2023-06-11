@@ -12,7 +12,7 @@ def TheGreatQuestion(answer) -> str:
     return check
 
 def main():
-    answer = input("What is the Great Question of Life, the Universe and Everything?")
+    answer = input("What is the Great Question of Life, the Universe and Everything?").rstrip().lstrip()
     print(TheGreatQuestion(answer))
 
 main()
