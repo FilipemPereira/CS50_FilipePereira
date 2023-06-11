@@ -9,8 +9,8 @@ x is an integer, y is a operator symbol and z is an integer too.
 def mathInterpreter(input) -> str:
     # unpack the list
     x, operator, y = input.split(" ")
-    n1 = int(x)
-    n2 = int(y)
+    n1 = float(x)
+    n2 = float(y)
     match operator:
         case "+":
             result = n1 + n2
@@ -19,7 +19,7 @@ def mathInterpreter(input) -> str:
         case "*":
             result = n1 * n2
         case "/":
-            result = float(n1) / n2
+            result = n1 / n2
         case _:
             result = "ERROR!"
 
