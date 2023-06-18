@@ -9,12 +9,14 @@ inputted that item. No need to pluralize the items. Treat the user's input case-
 # count - count the number of occurrences of some element in a list
 # Counter() - count hashable objects in the list. Returns a new list
 
+
 def groceryList(lista):
     counter = Counter(lista)
-    sortedList = sorted(counter.items(), key = lambda x: x[0])
-    
+    sortedList = sorted(counter.items(), key=lambda x: x[0])
+
     for item, count in sortedList:
         print(f"{count} {item}")
+
 
 def main():
     lista = []
@@ -25,5 +27,6 @@ def main():
         except EOFError:
             break
     groceryList(lista)
+
 
 main()

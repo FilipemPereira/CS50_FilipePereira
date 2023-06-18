@@ -10,6 +10,7 @@ If, though, X or Y is not an integer, X is greater than Y, or Y is 0, instead pr
 any exceptions like ValueError or ZeroDivisionError.
 """
 
+
 def fuel_gauge(fraction):
     try:
         x, y = map(int, fraction.split("/"))
@@ -25,8 +26,8 @@ def fuel_gauge(fraction):
             return str(round(percentage)) + '%'
     except (ValueError, ZeroDivisionError):
         return None
-    
-    
+
+
 def main():
     while True:
         fraction = input("Fraction: ")
@@ -34,5 +35,6 @@ def main():
         if percentage is not None:
             break
     print(percentage)
+
 
 main()

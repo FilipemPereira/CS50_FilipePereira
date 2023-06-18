@@ -24,6 +24,7 @@ months = [
     "December"
 ]
 
+
 def convert(month):
     match month:
         case "January":
@@ -54,11 +55,13 @@ def convert(month):
             n = 0
     return n
 
-def leadingZeroes(number :str) -> str:
+
+def leadingZeroes(number: str) -> str:
     if 0 < len(number) < 2:
         return number.zfill(2)
     else:
         return number
+
 
 def isValid(date):
     # Expects n1n1/n2n2/n3n3n3n3
@@ -73,6 +76,7 @@ def isValid(date):
         n, s = map(str, day.split(","))
         return month in months and 1 <= int(n) <= 31 and len(year) == 4
 
+
 def optimalDate(validDate):
     if "/" in validDate:
         month, day, year = map(str, validDate.split("/"))
@@ -83,11 +87,13 @@ def optimalDate(validDate):
         n, s = map(str, day.split(","))
         return year + "-" + leadingZeroes(str(convert(month))) + "-" + leadingZeroes(n)
 
+
 def main():
     while True:
         date = input("Date: ").title().rstrip().lstrip()
         if isValid(date):
             print(optimalDate(date))
             break
+
 
 main()
