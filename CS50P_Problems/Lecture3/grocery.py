@@ -22,7 +22,7 @@ def main():
     lista = []
     while True:
         try:
-            item = input().lower()
+            item = input().upper()
             lista.append(item)
         except EOFError:
             break
