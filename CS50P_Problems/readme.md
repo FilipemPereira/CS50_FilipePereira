@@ -1,7 +1,7 @@
 # CS50 Python
 ___
 
-This course have 9 classes:
+This course have 10 classes:
 1. Lecture 0 - Functions and variables
 2. Lecture 1 - Conditionals
 3. Lecture 2 - Loops
