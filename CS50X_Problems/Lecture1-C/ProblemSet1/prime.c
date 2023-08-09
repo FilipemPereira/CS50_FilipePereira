@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool prime(int number) {
+bool prime(int number){
     bool b = true;
     
     if (number == 1)
@@ -14,8 +14,7 @@ bool prime(int number) {
     return b;
 }
 
-int main(void)
-{
+int main(void){
     int min, max;
     do {
         printf("Minimum: ");
