@@ -1,7 +1,7 @@
 # CS50X
 ___
 
-This course have 10 classes:
+This course have 10 classes.
 
 1. Lecture 1 - C
 2. Lecture 2 - Arrays
