@@ -15,7 +15,7 @@
 ## Practice problems
 
 1. Hours
-2. N0V0w3ls
+2. NoVowels
 3. Password
 
 ## Lab 1
