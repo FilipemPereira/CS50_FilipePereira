@@ -2,48 +2,33 @@
 
 ## List of Contents
 
-1. C
-2. Source Code
-3. Machine Code
-4. Compiler
-5. Correctness
-6. Design
-7. Style
-8. Visual Studio Code
-9. Syntax Highlighting
-10. Escape Sequences
-11. Header Files 
-12. Libraries
-13. Manual Pages
-14. Types
-15. Conditionals
-16. Variables
-17. Loops
-18. Linux
-19. Graphical User Interface (GUI) vs. Command-Line Interface (CLI)
-20. Constants
-21. Comments
-22. Pseudocode
-23. Operators
-24. Integer Overflow and Floating-Point Imprecision.
+1. Preprocessing
+2. Compiling
+3. Assembling
+4. Linking
+5. Debugging
+6. Arrays
+7. Strings
+8. Command-Line Arguments
+9. Cryptography.
 
 ## Practice problems
 
-1. Debug
-2. Half
-3. Prime 
+1. Hours
+2. N0V0w3ls
+3. Password
 
 ## Lab 1
 
-1. Population growth
+1. Scrabble
    
 ## Problem set 1
 
-1. Hello
-2. Mario (less)
-3. Mario (more)
-4. Cash
-5. Credit
+1. Readability
+2. Bulbs
+3. Caesar
+4. Substitution
+5. Wordle50
 
 To compile the C programs you can use the `gcc` compiler or `make` using the follow structure in your command line (note: it is for linux operative systems - e.g., Ubuntu):
 
