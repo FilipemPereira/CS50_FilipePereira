@@ -1,5 +1,32 @@
 # Lecture 1 -  c
 
+## List of Contents
+
+1. C
+2. Source Code
+3. Machine Code
+4. Compiler
+5. Correctness
+6. Design
+7. Style
+8. Visual Studio Code
+9. Syntax Highlighting
+10. Escape Sequences
+11. Header Files 
+12. Libraries
+13. Manual Pages
+14. Types
+15. Conditionals
+16. Variables
+17. Loops
+18. Linux
+19. Graphical User Interface (GUI) vs. Command-Line Interface (CLI)
+20. Constants
+21. Comments
+22. Pseudocode
+23. Operators
+24. Integer Overflow and Floating-Point Imprecision.
+
 ## Practice problems
 
 1. Debug
