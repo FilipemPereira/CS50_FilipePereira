@@ -1,7 +1,9 @@
 #include <ctype.h>
 #include <stdio.h>
 
-// TODO: complete the calc_hours function
+// Calculate the total number of hours spending on CS50 course or the average time spending on CS50 course according to the output
+float calc_hours(int hours[], int weeks, char output);
+
 float calc_hours(int hours[], int weeks, char output){
     float sum = 0.0, result;
     for (int i = 0; i < weeks; i++){

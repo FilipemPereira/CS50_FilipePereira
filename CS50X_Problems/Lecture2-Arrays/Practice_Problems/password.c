@@ -2,6 +2,9 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+// Check if one password is valid, i.e., if is secure
+bool valid(char* password);
+
 bool valid(char* password){
     bool upper = false, lower = false, number = false, symbol = false;
     for (int i = 0; password[i] != '\0'; i++){
