@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * Program that print a pattern to the output
+*/
+
 int main(void){
     int height;
     do {

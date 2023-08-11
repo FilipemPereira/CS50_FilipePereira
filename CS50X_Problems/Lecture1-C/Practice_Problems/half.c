@@ -1,7 +1,8 @@
-// Calculate your half of a restaurant bill
-// Data types, operations, type casting, return value
-
 #include <stdio.h>
+
+// Calculate your half of a restaurant bill
+float half(float bill, float tax, int tip);
+
 
 float half(float bill, float tax, int tip){
     float billAmount = bill + (bill * (tax / 100));
@@ -10,8 +11,7 @@ float half(float bill, float tax, int tip){
     return billAmount / 2;
 }
 
-
-int main(void) {
+int main(void){
     float bill_amount, tax_percent; 
     int tip_percent;
     printf("Bill before tax and tip: ");

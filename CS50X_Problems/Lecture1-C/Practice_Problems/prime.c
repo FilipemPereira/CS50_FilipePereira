@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Cheack if a number is prime
+bool prime(int number);
+
 bool prime(int number){
     bool b = true;
     

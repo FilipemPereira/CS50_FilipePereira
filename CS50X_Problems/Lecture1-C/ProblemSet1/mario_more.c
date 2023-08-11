@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main(void)
-{
+/**
+ * Program that print a pattern to the output
+*/
+int main(void){
     int height;
     do {
         printf("Height: ");
