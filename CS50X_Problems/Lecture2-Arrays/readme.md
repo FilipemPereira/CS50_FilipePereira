@@ -1,4 +1,4 @@
-# Lecture 1 -  c
+# Lecture 2 -  Arrays
 
 ## List of Contents
 
@@ -18,11 +18,11 @@
 2. NoVowels
 3. Password
 
-## Lab 1
+## Lab 2
 
 1. Scrabble
    
-## Problem set 1
+## Problem set 2
 
 1. Readability
 2. Bulbs
