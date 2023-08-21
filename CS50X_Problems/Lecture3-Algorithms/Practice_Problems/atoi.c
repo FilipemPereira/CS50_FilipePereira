@@ -11,10 +11,12 @@ int convert(char* input){
     // TODO
     if (strlen(input) == 0)
         return 0;
+
     int lastDigit = input[strlen(input) - 1] - '0';
     char* shortnedString = malloc(sizeof(char) * strlen(input));
     strncpy(shortnedString, input, strlen(input) - 1);
     shortnedString[strlen(input) - 1] = '\0';
+    
     return (10 * convert(shortnedString)) + lastDigit;
     free(shortnedString);
 }
