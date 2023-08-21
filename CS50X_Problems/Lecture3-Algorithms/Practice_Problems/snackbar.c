@@ -25,7 +25,7 @@
 // Adjust this value (10) to number of items input below
 #define NUM_ITEMS 5
 
-// Menu itmes have item name and price
+// Menu items have item name and price
 typedef struct{
     char* item;
     float price;
