@@ -22,7 +22,7 @@
 // user-defined function prototypes
 
 // Ask the user for a input
-char* get_guess(int wordsize);
+void get_guess(int wordsize, char* guess);
 
 // Check the score of some word enter by the user
 int check_word(char* guess, int wordsize, int status[], char* choice);
@@ -32,9 +32,7 @@ void print_word(char* guess, int wordsize, int status[]);
 
 
 
-char* get_guess(int wordsize){
-    char* guess = malloc(sizeof(char) * 1024);
-
+void get_guess(int wordsize, char* guess){
     // ensure users actually provide a guess that is the correct length
     // TODO #3
     do {
@@ -42,7 +40,6 @@ char* get_guess(int wordsize){
         scanf("%s", guess);
     } while (strlen(guess) != wordsize);
 
-    return guess;
 }
 
 int check_word(char* guess, int wordsize, int status[], char* choice){
@@ -143,10 +140,11 @@ int main(int argc, char* argv[]){
     printf(GREEN "This is WORDLE50" RESET "\n");
     printf("You have %i tries to guess the %i-letter word I'm thinking of\n", guesses, wordsize);
 
+    char* guess = malloc(1024 * sizeof(char));
     // main game loop, one iteration for each guess
     for (int i = 0; i < guesses; i++){
         // obtain user's guess
-        char* guess = get_guess(wordsize);
+        get_guess(wordsize, guess);
         
         // array to hold guess status, initially set to zero
         int status[wordsize];
