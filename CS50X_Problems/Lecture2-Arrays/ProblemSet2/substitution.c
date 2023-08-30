@@ -77,4 +77,5 @@ int main(int argc, char* argv[]){
     scanf("%s", plainText);
     char* ciphertext = replace(plainText, newAlphabet);
     printf("ciphertext: %s\n", ciphertext);
+    free(newAlphabet);
 }
