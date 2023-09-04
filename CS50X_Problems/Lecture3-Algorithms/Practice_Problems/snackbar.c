@@ -80,13 +80,17 @@ int main(void){
 
     float total = 0;
     while (true){
-        char* item = get_string("Enter a food item: ");
+        char item[1024];
+        printf("Enter a food item: ");
+        fgets(item, sizeof(item), stdin);
+        printf("%s", item);
         if (strlen(item) == 0){
             printf("\n");
             break;
         }
 
         total += get_cost(item);
+        printf("%f", total);
     }
 
     printf("Your total cost is: $%.2f\n", total);
